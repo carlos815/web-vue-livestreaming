@@ -1,31 +1,6 @@
 <template>
   <div>
-    <h1>corre pipi corre pupu</h1>
-    <h1>corre pipi corre pupu</h1>
-    <h1>corre pipi corre pupu</h1>
-    <h1>corre pipi corre pupu</h1>
-    <h1>corre pipi corre pupu</h1>
-    <h1>corre pipi corre pupu</h1>
-    <h1>corre pipi corre pupu</h1>
-    <h1>corre pipi corre pupu</h1>
-    <h1>corre pipi corre pupu</h1>
-    <h1>corre pipi corre pupu</h1>
-    <h1>corre pipi corre pupu</h1>
-    <h1>corre pipi corre pupu</h1>
-    <h1>corre pipi corre pupu</h1>
-    <h1>corre pipi corre pupu</h1>
-    <h1>corre pipi corre pupu</h1>
-    <h1>corre pipi corre pupu</h1>
-    <h1>corre pipi corre pupu</h1>
-    <h1>corre pipi corre pupu</h1>
-    <h1>corre pipi corre pupu</h1>
-    <h1>corre pipi corre pupu</h1>
-    <h1>corre pipi corre pupu</h1>
-    <h1>corre pipi corre pupu</h1>
-    <h1>corre pipi corre pupu</h1>
-    <h1>corre pipi corre pupu</h1>
-    <h1>corre pipi corre pupu</h1>
-    <h1>corre pipi corre pupu</h1>
+    <h1>error420</h1>
   </div>
 </template>
 

@@ -5,7 +5,7 @@
   border: none;
   color: $strm-color-text-white;
 
-  padding: $spacing-x-small $spacing-medium;
+  padding: $strm-space-sm $strm-space-md;
 
   cursor: pointer;
   @include button1;
@@ -70,7 +70,7 @@
 }
 
 @mixin button-small {
-  padding: 4px $spacing-medium;
+  padding: 4px $strm-space-md;
   @include button2;
 }
 

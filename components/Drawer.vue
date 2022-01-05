@@ -41,7 +41,7 @@ export default {
 
   display: flex;
   flex-direction: column;
-  padding: $spacing-x-large $spacing-large;
+  padding: $strm-space-xl $strm-space-lg;
   color: $strm-color-text-white;
   right: auto;
   touch-action: pan-y;
@@ -63,19 +63,19 @@ export default {
 
   h3 {
     @include subtitle1Bold;
-    margin-bottom: $spacing-large;
-    padding: $spacing-x-small;
+    margin-bottom: $strm-space-lg;
+    padding: $strm-space-sm;
   }
 
   &-logo {
-    margin-bottom: calc($spacing-x-large + 0.25rem);
+    margin-bottom: calc($strm-space-xl + 0.25rem);
     width: 164px;
   }
 
   hr {
     border: 0;
     border-top: 1px solid $strm-color-neutral-40;
-    margin-bottom: $spacing-large;
+    margin-bottom: $strm-space-lg;
   }
 
   ul {
@@ -85,13 +85,13 @@ export default {
   &-tab li {
     display: flex;
     border-radius: 8px;
-    margin-bottom: $spacing-large;
-    padding: $spacing-x-small $spacing-medium;
+    margin-bottom: $strm-space-lg;
+    padding: $strm-space-sm $strm-space-md;
     align-items: center;
 
     @include button2;
     img {
-      margin-right: $spacing-x-small;
+      margin-right: $strm-space-sm;
       height: 12px;
     }
 

@@ -29,10 +29,10 @@ export default {
 @import "@/assets/css/main.scss";
 .drawer-user-card {
   display: flex;
-  padding: $spacing-x-small;
+  padding: $strm-space-sm;
   align-items: center;
   border-radius: 8px;
-  margin-bottom: $spacing-medium;
+  margin-bottom: $strm-space-md;
 
   &:hover {
     background-color: $strm-opacity-white-10;

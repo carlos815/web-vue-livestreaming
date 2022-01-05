@@ -99,22 +99,22 @@ $search-icon-width: 12px;
     display: flex;
     align-items: center;
     width: stretch;
-    padding: $spacing-medium $spacing-large;
+    padding: $strm-space-md $strm-space-lg;
 
     .header-logo {
       width: 164px;
-      margin-right: $spacing-large;
+      margin-right: $strm-space-lg;
       height: -webkit-fill-available;
     }
 
     #toggleDrawerBtn {
       display: flex;
       padding: 0;
-      margin-right: $spacing-large;
+      margin-right: $strm-space-lg;
     }
 
     .search-input {
-      margin-right: $spacing-large;
+      margin-right: $strm-space-lg;
       input {
         width: inherit;
       }
@@ -138,7 +138,7 @@ $search-icon-width: 12px;
   display: flex;
   background-color: $strm-opacity-black-80;
   .page-content-wrapper .page-content {
-    padding: $spacing-medium $spacing-large;
+    padding: $strm-space-md $strm-space-lg;
   }
 
   .page-content-wrapper.full-nav .page-content {
@@ -176,8 +176,8 @@ $search-icon-width: 12px;
 
       background-color: $strm-color-primary-100;
       border: none;
-      padding: $spacing-x-small $spacing-large;
-      padding-left: calc($spacing-medium + $spacing-large + $search-icon-width);
+      padding: $strm-space-sm $strm-space-lg;
+      padding-left: calc($strm-space-md + $strm-space-lg + $search-icon-width);
     }
 
     &::after {
@@ -185,7 +185,7 @@ $search-icon-width: 12px;
       width: $search-icon-width;
       height: $search-icon-width;
       position: absolute;
-      left: $spacing-medium;
+      left: $strm-space-md;
       bottom: 50%;
       transform: translate(0, 50%);
       background-image: url(@/assets/icons/search-solid.svg);
@@ -196,7 +196,7 @@ $search-icon-width: 12px;
   button {
     background-color: transparent;
     border: none;
-    margin-right: $spacing-x-large;
+    margin-right: $strm-space-xl;
 
     :last-of-type {
       margin-right: 0;

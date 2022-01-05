@@ -56,7 +56,7 @@ export default {
     text-decoration: none;
   }
   &-content {
-    padding: $spacing-large;
+    padding: $strm-space-lg;
   }
 
   h1,
@@ -65,7 +65,7 @@ export default {
   }
 
   h3 {
-    margin-bottom: $spacing-x-large;
+    margin-bottom: $strm-space-xl;
   }
 
   &-background {

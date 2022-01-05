@@ -13,13 +13,13 @@
 }
 
 .cards-set {
-  padding: $spacing-large;
-  margin-bottom: calc($spacing-x-large + $spacing-medium);
+  padding: $strm-space-lg;
+  margin-bottom: calc($strm-space-xl + $strm-space-md);
   width: unset;
 
   .thumbnail-wrapper {
     width: 100%;
-    margin-bottom: $spacing-x-small;
+    margin-bottom: $strm-space-sm;
 
     img {
       width: 100%;
@@ -30,12 +30,12 @@
 
   &-title {
     display: flex;
-    margin-bottom: $spacing-medium;
+    margin-bottom: $strm-space-md;
     align-items: center;
 
     h2 {
       margin: 0;
-      margin-right: $spacing-large;
+      margin-right: $strm-space-lg;
     }
 
     button {
@@ -52,7 +52,7 @@
     flex-wrap: wrap;
 
     li {
-      margin-right: $spacing-medium;
+      margin-right: $strm-space-md;
       list-style: none;
 
       &:last-of-type {
@@ -67,7 +67,7 @@
 
   h2 {
     margin: 0;
-    margin-right: $spacing-large;
+    margin-right: $strm-space-lg;
   }
 }
 
@@ -75,7 +75,7 @@
   min-width: 30px;
   width: 30px;
   height: 30px;
-  margin-right: $spacing-medium;
+  margin-right: $strm-space-md;
   border-radius: 9999px;
   overflow: hidden;
 

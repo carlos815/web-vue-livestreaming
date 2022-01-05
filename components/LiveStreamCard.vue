@@ -53,17 +53,17 @@ export default {
 
   .thumbnail-wrapper {
     height: 204px;
-    margin-bottom: $spacing-medium;
+    margin-bottom: $strm-space-md;
   }
 
   .tags-wrapper {
     display: flex;
-    margin-bottom: $spacing-medium;
+    margin-bottom: $strm-space-md;
 
     .tag {
       background-color: $strm-opacity-white-10;
-      margin-right: $spacing-medium;
-      padding: 0 $spacing-medium;
+      margin-right: $strm-space-md;
+      padding: 0 $strm-space-md;
       border-radius: 9999px;
 
       @include button2;
