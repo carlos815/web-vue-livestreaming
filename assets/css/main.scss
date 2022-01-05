@@ -1,0 +1,48 @@
+@import "./fonts/main.scss";
+@import "./colors/main.scss";
+@import "./responsive/main.scss";
+@import "./components/main.scss";
+
+* {
+  text-decoration: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  background-color: $strm-color-neutral-100;
+}
+
+h1 {
+  @include headline1;
+  color: $strm-color-text-white;
+}
+
+h2 {
+  @include headline2;
+  color: $strm-color-text-white;
+}
+
+h3 {
+  @include subtitle1;
+  color: $strm-color-text-white;
+}
+
+h4 {
+  @include body1;
+  color: $strm-color-text-white;
+}
+
+h5 {
+  @include body1;
+  color: $strm-color-text-white;
+}
+
+h6 {
+  @include body1;
+  color: $strm-color-text-white;
+}

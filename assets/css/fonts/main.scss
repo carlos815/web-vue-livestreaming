@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap");
+
+$font-family-main: "Poppins", sans-serif;
+$font-family-text: "Roboto", sans-serif;
+
+* {
+  font-family: $font-family-text;
+}
+
+/* Headline */
+
+@mixin headline1 {
+  font: bold 3rem/1.3 $font-family-main;
+}
+
+@mixin headline2 {
+  font: bold 2rem/1.3 $font-family-main;
+}
+
+/* Subtitle */
+
+@mixin subtitle1 {
+  font: normal 1.25rem/1.3 $font-family-main;
+}
+@mixin subtitle1Bold {
+  font: bold 1.25rem/1.3 $font-family-main;
+}
+
+/* Body */
+@mixin body1 {
+  font: normal 1rem/1.75 $font-family-text;
+}
+
+@mixin body1bold {
+  font: bold 1rem/1.75 $font-family-text;
+}
+
+@mixin body2 {
+  font: normal 0.875rem/1.75 $font-family-text;
+}
+
+@mixin body2bold {
+  font: bold 0.875rem/1.75 $font-family-text;
+}
+
+/* Button */
+@mixin button1 {
+  font: normal 1rem/1.5 $font-family-main;
+}
+
+@mixin button1bold {
+  font: bold 1rem/1.5 $font-family-main;
+}
+
+@mixin button2 {
+  font: normal 0.875rem/1.5 $font-family-main;
+}
+
+@mixin button2bold {
+  font: bold 0.875rem/1.5 $font-family-main;
+}
+
+/* Others */
+@mixin caption1 {
+  font: bold 0.75rem/1.75 $font-family-text;
+  text-transform: uppercase;
+}
+
+@mixin small1 {
+  font: normal 0.75rem/1.75 $font-family-text;
+}
+
+@mixin small1bold {
+  font: bold 0.75rem/1.75 $font-family-text;
+}
