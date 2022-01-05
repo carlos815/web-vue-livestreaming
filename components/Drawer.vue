@@ -35,14 +35,14 @@ export default {
 @import "@/assets/css/main.scss";
 
 .drawer {
-  background-color: $palette-primary-100;
+  background-color: $strm-color-primary-100;
   width: 272px;
   min-width: 272px;
 
   display: flex;
   flex-direction: column;
   padding: $spacing-x-large $spacing-large;
-  color: $color-text-white;
+  color: $strm-color-text-white;
   right: auto;
   touch-action: pan-y;
   position: fixed;
@@ -74,7 +74,7 @@ export default {
 
   hr {
     border: 0;
-    border-top: 1px solid $palette-neutral-40;
+    border-top: 1px solid $strm-color-neutral-40;
     margin-bottom: $spacing-large;
   }
 
@@ -97,16 +97,16 @@ export default {
 
     &.selected {
       @include button2bold;
-      background-color: $transparent-white-20;
+      background-color: $strm-opacity-white-20;
     }
 
     &:hover {
-      background-color: $transparent-white-10;
+      background-color: $strm-opacity-white-10;
       cursor: pointer;
     }
 
     &:active {
-      background-color: $transparent-white-20;
+      background-color: $strm-opacity-white-20;
       cursor: pointer;
     }
   }

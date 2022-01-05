@@ -136,7 +136,7 @@ $search-icon-width: 12px;
   width: 100%;
 
   display: flex;
-  background-color: $transparent-black-80;
+  background-color: $strm-opacity-black-80;
   .page-content-wrapper .page-content {
     padding: $spacing-medium $spacing-large;
   }
@@ -172,9 +172,9 @@ $search-icon-width: 12px;
       border-radius: 0.5rem;
       width: -webkit-fill-available;
       @include button2;
-      color: $color-text-light;
+      color: $strm-color-text-light;
 
-      background-color: $palette-primary-100;
+      background-color: $strm-color-primary-100;
       border: none;
       padding: $spacing-x-small $spacing-large;
       padding-left: calc($spacing-medium + $spacing-large + $search-icon-width);

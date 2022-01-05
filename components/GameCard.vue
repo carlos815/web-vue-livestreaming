@@ -40,7 +40,7 @@ export default {
 
   p {
     @include body2;
-    color: $color-text-light;
+    color: $strm-color-text-light;
   }
 
   a {

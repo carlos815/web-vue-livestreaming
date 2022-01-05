@@ -1,58 +1,58 @@
 /* Palette - Primary */
-$palette-primary-00: #4361ee;
-$palette-primary-40: #3449ad;
-$palette-primary-80: #253480;
-$palette-primary-100: #282a39;
+$strm-color-primary-00: #4361ee;
+$strm-color-primary-40: #3449ad;
+$strm-color-primary-80: #253480;
+$strm-color-primary-100: #282a39;
 
 /* Palette - Neutral */
-$palette-neutral-02: #eaeaea;
-$palette-neutral-10: #e6e6e6;
-$palette-neutral-40: #9a9a9a;
-$palette-neutral-80: #282828;
-$palette-neutral-100: #1c1c1c;
+$strm-color-neutral-02: #eaeaea;
+$strm-color-neutral-10: #e6e6e6;
+$strm-color-neutral-40: #9a9a9a;
+$strm-color-neutral-80: #282828;
+$strm-color-neutral-100: #1c1c1c;
 
 /* Alert */
 $color-alert: #ef233c;
 
 /* Gradient */
-$palette-gradient-01: linear-gradient(90deg, #3f37c9 7.57%, #4361ee 88.38%);
+$strm-color-gradient-01: linear-gradient(90deg, #3f37c9 7.57%, #4361ee 88.38%);
 
 /* Black - Transparent */
-$transparent-black-05: rgba(0, 0, 0, 0.05);
-$transparent-black-10: rgba(0, 0, 0, 0.1);
-$transparent-black-20: rgba(0, 0, 0, 0.2);
-$transparent-black-40: rgba(0, 0, 0, 0.4);
-$transparent-black-80: rgba(0, 0, 0, 0.8);
+$strm-opacity-black-05: rgba(0, 0, 0, 0.05);
+$strm-opacity-black-10: rgba(0, 0, 0, 0.1);
+$strm-opacity-black-20: rgba(0, 0, 0, 0.2);
+$strm-opacity-black-40: rgba(0, 0, 0, 0.4);
+$strm-opacity-black-80: rgba(0, 0, 0, 0.8);
 
 /* Whites- Transparent */
-$transparent-white-05: rgba(255, 255, 255, 0.05);
-$transparent-white-10: rgba(255, 255, 255, 0.1);
-$transparent-white-20: rgba(255, 255, 255, 0.2);
-$transparent-white-40: rgba(255, 255, 255, 0.4);
-$transparent-white-80: rgba(255, 255, 255, 0.8);
+$strm-opacity-white-05: rgba(255, 255, 255, 0.05);
+$strm-opacity-white-10: rgba(255, 255, 255, 0.1);
+$strm-opacity-white-20: rgba(255, 255, 255, 0.2);
+$strm-opacity-white-40: rgba(255, 255, 255, 0.4);
+$strm-opacity-white-80: rgba(255, 255, 255, 0.8);
 
 /* Typography colors */
-$color-text-white: $palette-neutral-02;
-$color-text-light: $palette-neutral-40;
-$color-text-dark: $palette-neutral-80;
-$color-text-icon-default: $palette-neutral-02;
+$strm-color-text-white: $strm-color-neutral-02;
+$strm-color-text-light: $strm-color-neutral-40;
+$strm-color-text-dark: $strm-color-neutral-80;
+$color-text-icon-default: $strm-color-neutral-02;
 
 /* Background colors */
-$color-background: $palette-neutral-80;
-$color-background-button-primary-default: $palette-gradient-01;
-$color-background-button-primary-hover: $palette-primary-80;
-$color-background-button-primary-pressed: $palette-primary-100;
+$strm-color-background: $strm-color-neutral-80;
+$strm-button-color-background-primary-default: $strm-color-gradient-01;
+$strm-button-color-background-primary-hover: $strm-color-primary-80;
+$strm-button-color-background-primary-pressed: $strm-color-primary-100;
 
-$color-background-button-secondary-default: $palette-neutral-100;
-$background-button-secondary-hover: $transparent-white-05;
-$background-button-secondary-pressed: $transparent-white-10;
+$strm-button-color-background-secondary-default: $strm-color-neutral-100;
+$strm-button-color-background-secondary-hover: $strm-opacity-white-05;
+$strm-button-color-background-secondary-pressed: $strm-opacity-white-10;
 
 /* Borders */
-$button-color-border-secondary: $palette-gradient-01;
-$button-color-border-tertiary: $transparent-white-20;
+$strm-button-color-border-secondary: $strm-color-gradient-01;
+$button-color-border-tertiary: $strm-opacity-white-20;
 
 /* Elevations */
-//                   $palette-primary-00 + 0.349 opacity
-//                                    |
-//                                    V
-$elevation-01: 3px 3px 8px 1px #4463ee59; /* Use in box-shadow */
+//                                $strm-color-primary-00 + 0.349 opacity
+//                                                 |
+//                                                 V
+$strm-button-shadow-primary: 3px 3px 8px 1px #4463ee59; /* Use in box-shadow */

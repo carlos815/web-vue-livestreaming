@@ -61,13 +61,13 @@ export default {
     margin-bottom: $spacing-medium;
 
     .tag {
-      background-color: $transparent-white-10;
+      background-color: $strm-opacity-white-10;
       margin-right: $spacing-medium;
       padding: 0 $spacing-medium;
       border-radius: 9999px;
 
       @include button2;
-      color: $color-text-white;
+      color: $strm-color-text-white;
 
       a {
         text-decoration: none;
@@ -85,7 +85,7 @@ export default {
     }
 
     p {
-      color: $color-text-light;
+      color: $strm-color-text-light;
     }
   }
 }

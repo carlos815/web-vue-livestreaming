@@ -3,7 +3,7 @@
 
   border-radius: 0.5rem;
   border: none;
-  color: $color-text-white;
+  color: $strm-color-text-white;
 
   padding: $spacing-x-small $spacing-medium;
 
@@ -14,17 +14,17 @@
 @mixin button-primary {
   @include button;
 
-  background-image: $palette-gradient-01;
-  box-shadow: $elevation-01;
+  background-image: $strm-color-gradient-01;
+  box-shadow: $strm-button-shadow-primary;
 
   &:hover {
     background-image: none;
-    background-color: $palette-primary-40;
+    background-color: $strm-color-primary-40;
   }
 
   &:active {
     background-image: none;
-    background-color: $palette-primary-80;
+    background-color: $strm-color-primary-80;
   }
 }
 
@@ -34,7 +34,7 @@
   background-image: none;
   box-shadow: none;
   background-color: transparent;
-  border-color: $palette-primary-00;
+  border-color: $strm-color-primary-00;
 
   border-color: #4361ee;
   border-width: 1px;
@@ -42,12 +42,12 @@
 
   &:hover {
     background-image: none;
-    background-color: $transparent-white-05;
+    background-color: $strm-opacity-white-05;
   }
 
   &:active {
     background-image: none;
-    background-color: $transparent-white-10;
+    background-color: $strm-opacity-white-10;
   }
 }
 

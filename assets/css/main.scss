@@ -14,35 +14,35 @@
 body {
   width: 100%;
   margin: 0;
-  background-color: $palette-neutral-100;
+  background-color: $strm-color-neutral-100;
 }
 
 h1 {
   @include headline1;
-  color: $color-text-white;
+  color: $strm-color-text-white;
 }
 
 h2 {
   @include headline2;
-  color: $color-text-white;
+  color: $strm-color-text-white;
 }
 
 h3 {
   @include subtitle1;
-  color: $color-text-white;
+  color: $strm-color-text-white;
 }
 
 h4 {
   @include body1;
-  color: $color-text-white;
+  color: $strm-color-text-white;
 }
 
 h5 {
   @include body1;
-  color: $color-text-white;
+  color: $strm-color-text-white;
 }
 
 h6 {
   @include body1;
-  color: $color-text-white;
+  color: $strm-color-text-white;
 }

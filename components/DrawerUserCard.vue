@@ -35,7 +35,7 @@ export default {
   margin-bottom: $spacing-medium;
 
   &:hover {
-    background-color: $transparent-white-10;
+    background-color: $strm-opacity-white-10;
   }
   &-top-wrapper {
     display: flex;
@@ -47,13 +47,13 @@ export default {
 
   &-username {
     @include small1bold;
-    color: $color-text-white;
+    color: $strm-color-text-white;
     margin-right: auto;
   }
 
   &-viewers-count {
     @include small1;
-    color: $color-text-white;
+    color: $strm-color-text-white;
 
     &::after {
       content: "";
@@ -69,7 +69,7 @@ export default {
 
   &-game-title {
     @include small1;
-    color: $color-text-light;
+    color: $strm-color-text-light;
   }
 }
 </style>

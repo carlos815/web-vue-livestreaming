@@ -86,7 +86,7 @@ export default {
     position: absolute;
     background-image: linear-gradient(
       0deg,
-      $palette-neutral-100 0.22%,
+      $strm-color-neutral-100 0.22%,
       transparent 63.76%
     );
     bottom: 0;
