@@ -1,2 +1,3 @@
 const baseURL = "http://localhost:3000/";
-export { baseURL };
+const baseImgPath = "../assets/images/";
+export { baseURL, baseImgPath };

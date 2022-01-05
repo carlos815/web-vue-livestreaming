@@ -2,19 +2,24 @@ import { baseURL } from "./variables";
 
 const getData = (dataName) => {
   const data = {};
-  const error = {};
+  let error = {};
   async function load() {
     try {
-      let dataFetched = await fetch(baseURL + dataName);
-      if (!dataFetched.ok) {
-        throw Error("no data available");
+      const res = await fetch(baseURL + dataName);
+
+      if (!res.ok) {
+        const message = `An error has occured: ${res.status} - ${res.statusText}`;
+        throw new Error(message);
       }
-      data.value = await dataFetched.json();
-    } catch (e) {
-      error.value = e.message;
-      console.log(e.message);
+      data = await res.json();
+
+      console.log("this is the dataform getData  ");
+      console.log(data);
+    } catch (err) {
+      error = err.message;
     }
   }
+
   return { data, error, load };
 };
 

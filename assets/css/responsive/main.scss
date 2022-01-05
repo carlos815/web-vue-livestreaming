@@ -1,0 +1,29 @@
+$spacing-none: 0;
+$spacing-x-small: 0.5rem; //8px
+$spacing-medium: 1rem;
+$spacing-large: 1.5rem; //24px
+$spacing-x-large: 2rem; //32px
+
+$screen-320: 320px;
+$screen-575: 576px;
+$screen-767: 767px;
+$screen-1440: 1440px;
+$screen-1920: 1920px; /* big chungus 🐰 */
+
+@mixin screen-min($min) {
+  @media (min-width: $min) {
+    @content;
+  }
+}
+
+@mixin screen-max($max) {
+  @media (max-width: $max) {
+    @content;
+  }
+}
+
+@mixin screen-minmax($min, $max) {
+  @media (min-width: $min) and (max-width: $max) {
+    @content;
+  }
+} ;

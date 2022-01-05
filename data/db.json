@@ -2,37 +2,34 @@
   "hero": {
     "title": "Cras quis hendrerit nisi.",
     "subtitle": "Vestibulum hendrerit est sed porta dictum.",
-    "image_url": "data/images/hero.png",
+    "image_url": "hero.png",
     "url": "/start"
   },
   "popular_games": [
     {
       "id": 1,
       "title": "Minecraft",
-      "viewers_count": 300,
-      "url": "/minecraft",
-      "thumbnail_url": "data/images/Minecraft.png"
+      "viewers_count": 123,
+      "thumbnail_url": "Minecraft.png"
     },
     {
-      "id": 2,
+      "id": 6867,
       "title": "Fortnite",
-      "viewers_count": 300,
-      "url": "/fortnite",
-      "thumbnail_url": "data/images/Fortnite.png"
+      "viewers_count": 456,
+      "thumbnail_url": "Fortnite.png"
     },
     {
       "id": 3,
       "title": "Halo Infinite",
-      "viewers_count": 300,
+      "viewers_count": 789,
       "url": "/halo-infinite",
-      "thumbnail_url": "data/images/Halo Infinite.png"
+      "thumbnail_url": "Halo Infinite.png"
     },
     {
       "id": 4,
       "title": "Among Us",
-      "viewers_count": 300,
-      "url": "/among-us",
-      "thumbnail_url": "data/images/Among Us.png"
+      "viewers_count": 987,
+      "thumbnail_url": "Among Us.png"
     }
   ],
   "live_streams": [
@@ -42,22 +39,21 @@
       "user": {
         "id": 123,
         "username": "FriendlyPerson",
-        "profile_pic_url": "data/images/unsplash_3DaHtm1a-8w.png",
+        "profile_pic_url": "unsplash_3DaHtm1a-8w.png",
         "full_name": "Friendly Person"
       },
       "tags": [
         "Spanish",
         "Casual"
       ],
-      "thumbnail_url": "data/images/Thumbnail 01.png",
-      "url": "/streams/1",
+      "thumbnail_url": "Thumbnail 01.png",
       "viewers_count": 147428,
       "game": {
         "id": 4,
         "title": "Among Us",
         "viewers_count": 300,
         "url": "/among-us",
-        "thumbnail_url": "data/images/Among Us.png"
+        "thumbnail_url": "Among Us.png"
       }
     },
     {
@@ -66,22 +62,20 @@
       "user": {
         "id": 456,
         "username": "LovingPerson",
-        "profile_pic_url": "data/images/unsplash_rOfBozD9pOE.png",
+        "profile_pic_url": "unsplash_rOfBozD9pOE.png",
         "full_name": "Loving Person"
       },
       "tags": [
         "English",
         "Casual"
       ],
-      "thumbnail_url": "data/images/Thumbnail 02.png",
-      "url": "/streams/2",
+      "thumbnail_url": "Thumbnail 02.png",
       "viewers_count": 1111,
       "game": {
-        "id": 2,
+        "id": 6867,
         "title": "Fortnite",
         "viewers_count": 300,
-        "url": "/fortnite",
-        "thumbnail_url": "data/images/Fortnite.png"
+        "thumbnail_url": "Fortnite.png"
       }
     },
     {
@@ -90,22 +84,20 @@
       "user": {
         "id": 789,
         "username": "BoringPerson",
-        "profile_pic_url": "data/images/unsplash_3TLl_97HNJo.png",
+        "profile_pic_url": "unsplash_3TLl_97HNJo.png",
         "full_name": "Boring person"
       },
       "tags": [
         "English",
         "Pro Gamer"
       ],
-      "thumbnail_url": "data/images/Thumbnail 03.png",
-      "url": "/streams/2323",
+      "thumbnail_url": "Thumbnail 03.png",
       "viewers_count": 1233,
       "game": {
-        "id": 2,
+        "id": 6867,
         "title": "Fortnite",
         "viewers_count": 300,
-        "url": "/fortnite",
-        "thumbnail_url": "data/images/Fortnite.png"
+        "thumbnail_url": "Fortnite.png"
       }
     }
   ],
@@ -113,31 +105,30 @@
     {
       "id": 11,
       "username": "jraulhernandezb",
-      "profile_pic_url": "data/images/unsplash_VWAzEW0bi58.png",
+      "profile_pic_url": "unsplash_VWAzEW0bi58.png",
       "full_name": "Juan Hernández",
       "now_playing": {
-        "id": 8,
+        "id": 787,
         "title": "Jugando LOL",
         "tags": [
           "Spanish",
           "Casual",
           "Manco"
         ],
-        "thumbnail_url": "data/images/Thumbnail 01.png",
+        "thumbnail_url": "Thumbnail 01.png",
         "url": "/streams/23623",
         "viewers_count": 14251,
         "game": {
           "id": 2,
           "title": "League of Legends",
-          "url": "/league-of-legends",
-          "thumbnail": "data/images/Fortnite.png"
+          "thumbnail": "Fortnite.png"
         }
       }
     },
     {
       "id": 98191,
       "username": "GreatUser",
-      "profile_pic_url": "data/images/unsplash_VWAzEW0bi58.png",
+      "profile_pic_url": "unsplash_3TLl_97HNJo.png",
       "full_name": "Great User",
       "now_playing": {
         "id": 8,
@@ -146,22 +137,21 @@
           "Spanish",
           "Casual"
         ],
-        "thumbnail_url": "data/images/Thumbnail 01.png",
+        "thumbnail_url": "Thumbnail 01.png",
         "url": "/streams/723",
-        "viewers_count": 14251,
+        "viewers_count": 12341234,
         "game": {
           "id": 4,
           "title": "Among Us",
           "viewers_count": 300,
-          "url": "/among-us",
-          "thumbnail_url": "data/images/Among Us.png"
+          "thumbnail_url": "Among Us.png"
         }
       }
     },
     {
       "id": 22,
       "username": "FunStufff",
-      "profile_pic_url": "data/images/unsplash_VWAzEW0bi58.png",
+      "profile_pic_url": "unsplash_rOfBozD9pOE.png",
       "full_name": "Fun Stuff The Man",
       "now_playing": {
         "id": 8,
@@ -170,15 +160,14 @@
           "Spanish",
           "Casual"
         ],
-        "thumbnail_url": "data/images/Thumbnail 01.png",
+        "thumbnail_url": "Thumbnail 01.png",
         "url": "/streams/6",
         "viewers_count": 10001,
         "game": {
           "id": 1,
           "title": "Minecraft",
           "viewers_count": 300,
-          "url": "/minecraft",
-          "thumbnail_url": "data/images/Minecraft.png"
+          "thumbnail_url": "Minecraft.png"
         }
       }
     }

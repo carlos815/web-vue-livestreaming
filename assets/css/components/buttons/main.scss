@@ -1,0 +1,96 @@
+@mixin button {
+  height: fit-content;
+
+  border-radius: 0.5rem;
+  border: none;
+  color: $color-text-white;
+
+  padding: $spacing-x-small $spacing-medium;
+
+  cursor: pointer;
+  @include button1;
+}
+
+@mixin button-primary {
+  @include button;
+
+  background-image: $palette-gradient-01;
+  box-shadow: $elevation-01;
+
+  &:hover {
+    background-image: none;
+    background-color: $palette-primary-40;
+  }
+
+  &:active {
+    background-image: none;
+    background-color: $palette-primary-80;
+  }
+}
+
+@mixin button-secondary {
+  @include button;
+
+  background-image: none;
+  box-shadow: none;
+  background-color: transparent;
+  border-color: $palette-primary-00;
+
+  border-color: #4361ee;
+  border-width: 1px;
+  border-style: solid;
+
+  &:hover {
+    background-image: none;
+    background-color: $transparent-white-05;
+  }
+
+  &:active {
+    background-image: none;
+    background-color: $transparent-white-10;
+  }
+}
+
+@mixin button-tertiary {
+  @include button;
+
+  background-image: none;
+  box-shadow: none;
+  background-color: transparent;
+
+  &:hover {
+    background-image: none;
+    background-color: none;
+  }
+
+  &:active {
+    background-image: none;
+    background-color: none;
+  }
+}
+
+@mixin button-small {
+  padding: 4px $spacing-medium;
+  @include button2;
+}
+
+/* Creating classes for everything */
+.button {
+  @include button;
+
+  &.primary {
+    @include button-primary;
+  }
+
+  &.secondary {
+    @include button-secondary;
+  }
+
+  &.tertiary {
+    @include button-tertiary;
+  }
+
+  &.small {
+    @include button-small;
+  }
+}
