@@ -38,7 +38,9 @@ export default {
 
   created() {
     axios
-      .get(baseURL + "live_streams")
+      //   .get(baseURL + "live_streams")
+      .get(baseURL + "live_streams" + ".json")
+
       .then((response) => {
         this.data = response.data;
       })

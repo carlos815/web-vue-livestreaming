@@ -19,18 +19,18 @@
 <script>
 import axios from "axios";
 import { baseURL } from "@/composables/variables";
-
 export default {
   data() {
     return {
       data: [],
       errors: [],
+      baseURL: baseURL,
     };
   },
 
   created() {
     axios
-      .get(baseURL + "hero")
+      .get(baseURL + "hero" + ".json")
       .then((response) => {
         this.data = response.data;
       })

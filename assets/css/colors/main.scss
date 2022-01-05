@@ -51,8 +51,8 @@ $strm-button-color-background-secondary-pressed: $strm-opacity-white-10;
 $strm-button-color-border-secondary: $strm-color-gradient-01;
 $button-color-border-tertiary: $strm-opacity-white-20;
 
-/* Elevations */
+/* Elevations - Not a color, use in box-shadow */
 //                                $strm-color-primary-00 + 0.349 opacity
 //                                                 |
 //                                                 V
-$strm-button-shadow-primary: 3px 3px 8px 1px #4463ee59; /* Use in box-shadow */
+$strm-button-shadow-primary: 3px 3px 8px 1px #4463ee59;

@@ -1,14 +1,10 @@
-/*@import "/assets/css/fonts/types/solid.scss";
-@import "/assets/css/fonts/types/title.scss";
-@import "/assets/css/fonts/types/copy.scss";
-*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap");
 
 $font-family-main: "Poppins", sans-serif;
 $font-family-text: "Roboto", sans-serif;
 
 * {
-  font-family: $font-family-text; //Just in case there's an unstyled text
+  font-family: $font-family-text;
 }
 
 /* Headline */

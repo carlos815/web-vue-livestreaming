@@ -12,9 +12,7 @@
           <button>
             <img src="@/assets/icons/envelope-regular.svg" alt="" />
           </button>
-          <button>
-            <img src="@/assets/icons/envelope-regular.svg" alt="" />
-          </button>
+          <button class="small-profile-image"></button>
         </div>
       </div>
     </div>
@@ -43,9 +41,7 @@
         <button>
           <img src="@/assets/icons/envelope-regular.svg" alt="" />
         </button>
-        <button>
-          <img src="@/assets/icons/envelope-regular.svg" alt="" />
-        </button>
+        <button class="small-profile-image"></button>
       </div>
     </div>
   </div>
@@ -139,6 +135,11 @@ $search-icon-width: 12px;
   background-color: $strm-opacity-black-80;
   .page-content-wrapper .page-content {
     padding: $strm-space-md $strm-space-lg;
+
+    .header-actions .small-profile-image {
+      /* Provisional - The user image goes here */
+      background-color: $strm-color-text-white;
+    }
   }
 
   .page-content-wrapper.full-nav .page-content {
@@ -149,6 +150,7 @@ $search-icon-width: 12px;
       right: 0;
       top: 50%;
       transform: translate(0, -50%);
+      display: flex;
     }
 
     &::after {

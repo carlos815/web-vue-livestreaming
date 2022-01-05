@@ -28,7 +28,8 @@ export default {
 
   created() {
     axios
-      .get(baseURL + "featured_users")
+      //  .get(baseURL + "featured_users")
+      .get(baseURL + "featured_users" + ".json")
       .then((response) => {
         this.data = response.data;
       })

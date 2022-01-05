@@ -37,7 +37,9 @@ export default {
 
   created() {
     axios
-      .get(baseURL + "popular_games")
+      //  .get(baseURL + "popular_games")
+      .get(baseURL + "popular_games" + ".json")
+
       .then((response) => {
         this.data = response.data;
       })
