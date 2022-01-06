@@ -68,6 +68,9 @@ export default {
 
       @include button2;
       color: $strm-color-text-white;
+      &:hover {
+        background-color: $strm-opacity-white-20;
+      }
 
       a {
         text-decoration: none;

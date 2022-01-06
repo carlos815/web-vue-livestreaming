@@ -66,6 +66,7 @@ export default {
 
   h3 {
     margin-bottom: $strm-space-xl;
+    max-width: 800px;
   }
 
   &-background {
