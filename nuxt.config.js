@@ -16,7 +16,7 @@ export default {
 
   target: "static",
   router: {
-    base: ".",
+    base: "/web-vue-livestreaming/",
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
